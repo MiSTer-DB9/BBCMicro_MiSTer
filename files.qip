@@ -15,12 +15,7 @@ set_global_assignment -name VERILOG_FILE rtl/Tube/tube.v
 set_global_assignment -name VHDL_FILE rtl/CoPro6502.vhd
 set_global_assignment -name VHDL_FILE rtl/CoProSPI.vhd
 set_global_assignment -name VHDL_FILE rtl/tuberom_65c102.vhd
-set_global_assignment -name VHDL_FILE rtl/sn76489/sn76489_top.vhd
-set_global_assignment -name VHDL_FILE rtl/sn76489/sn76489_tone.vhd
-set_global_assignment -name VHDL_FILE rtl/sn76489/sn76489_noise.vhd
-set_global_assignment -name VHDL_FILE rtl/sn76489/sn76489_latch_ctrl.vhd
-set_global_assignment -name VHDL_FILE rtl/sn76489/sn76489_clock_div.vhd
-set_global_assignment -name VHDL_FILE rtl/sn76489/sn76489_attenuator.vhd
+set_global_assignment -name VHDL_FILE rtl/sn76489_audio.vhd
 set_global_assignment -name VHDL_FILE rtl/R65Cx2.vhd
 set_global_assignment -name QIP_FILE rtl/t65/t65.qip
 set_global_assignment -name VHDL_FILE rtl/upd7002.vhd
@@ -33,6 +28,8 @@ set_global_assignment -name VHDL_FILE rtl/mc6845.vhd
 set_global_assignment -name VHDL_FILE rtl/vidproc.vhd
 set_global_assignment -name VHDL_FILE rtl/keyboard.vhd
 set_global_assignment -name VHDL_FILE rtl/bbc_micro_core.vhd -hdl_version VHDL_2008
+set_global_assignment -name VERILOG_FILE rtl/fdc1772/fdc1772.v
+set_global_assignment -name VERILOG_FILE rtl/fdc1772/floppy.v
 set_global_assignment -name SDC_FILE BBCMicro.sdc
 set_global_assignment -name SYSTEMVERILOG_FILE BBCMicro.sv
 set_global_assignment -name VERILOG_FILE rtl/joydb9md.v
