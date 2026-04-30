@@ -32,5 +32,3 @@ set_global_assignment -name VERILOG_FILE rtl/fdc1772/fdc1772.v
 set_global_assignment -name VERILOG_FILE rtl/fdc1772/floppy.v
 set_global_assignment -name SDC_FILE BBCMicro.sdc
 set_global_assignment -name SYSTEMVERILOG_FILE BBCMicro.sv
-set_global_assignment -name VERILOG_FILE rtl/joydb9md.v
-set_global_assignment -name VERILOG_FILE rtl/joydb15.v
